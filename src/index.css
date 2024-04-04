@@ -1,0 +1,98 @@
+@media(max-width: 1279px){
+  header{
+    height: 18vh;
+  }
+  #home{
+    width: 90%;
+  }
+  #field h3{
+    font-size: 1rem;
+  }
+  #resp{
+    font-size: 26px;
+    margin: 1.5rem 0;
+  }
+  hr{
+    width: 100%;
+  }
+  #filter{
+    width: 100%;
+  }
+  #taskContainer{
+    width: 100%;
+    height: 35vh;
+  }
+  footer{
+    height: 9vh;
+  }
+}
+
+@media(max-width:920px){
+  #field h3{
+    font-size: 14px;
+  }
+  #field{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+  }
+  #filter{
+    padding: 1rem;
+  }
+  #resp{
+    text-align: center;
+    font-size: 23px;
+  }
+  .task h3{
+    font-size: 20px;
+  }
+  .task p{
+    font-size: 18px;
+  }
+
+}
+
+@media(max-width:768px){
+
+  header{
+    height: 13vh;
+  }
+  header h1{
+    font-size: 25px;
+  }
+ 
+  #resp{
+    font-size: 20px;
+    margin: 1rem 0;
+  }
+  #filter{
+    margin: .5rem;
+    padding: .5rem;
+  }
+  #filterTitle{
+    font-size: 25px;
+  }
+  .task h3{
+    font-size: 17px;
+  }
+  .task p{
+    font-size: 15px;
+  }
+}
+
+@media(max-width:480px){
+  #resp{
+    font-size: 17px;
+  }
+  #filterTitle{
+    font-size: 20px;
+  }
+  li{
+    padding: .5rem;
+  }
+  .check, .circle{
+    width: 15px;
+    height: 15px;
+  }
+  
+}
